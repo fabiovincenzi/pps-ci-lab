@@ -1,4 +1,4 @@
-name: CI
+name: CI Example
 on:
   push:
 jobs:
@@ -11,4 +11,5 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
-      - run: ./gradlew clean build
+      - name: Build
+        run: ./gradlew clean build --parallel
