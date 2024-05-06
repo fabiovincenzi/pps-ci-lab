@@ -9,4 +9,8 @@ public class HelloWorld {
     public static void printClassName() {
         System.out.println("HelloWorld");
     }
+
+    public static String getClassName() {
+        return "HelloWorld";
+    }
 }
