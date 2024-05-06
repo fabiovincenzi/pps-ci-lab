@@ -13,5 +13,3 @@ jobs:
           java-version: '21'
       - name: Build
         run: ./gradlew clean build --parallel
-
-
