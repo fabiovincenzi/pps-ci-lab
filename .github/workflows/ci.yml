@@ -12,6 +12,6 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - name: Build
-        run: ./gradlew check
+        run: ./gradlew clean build --parallel
 
 
